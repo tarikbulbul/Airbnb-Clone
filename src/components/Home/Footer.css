@@ -27,3 +27,27 @@
 .social {
     margin-right: 60px;
 }
+
+@media screen and (max-width: 650px) {
+    .footer-wrap {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-bottom: 7px;
+    }
+
+    .social {
+        margin-right: 0;
+        margin-top: 7px;
+    }
+
+    .social-icon {
+        height: 34px !important;
+        width: 34px !important ;
+    }
+
+    .footer p {
+        text-align: center;
+        align-items: center;
+    }
+}

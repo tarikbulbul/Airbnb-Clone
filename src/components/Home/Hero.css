@@ -46,3 +46,23 @@
     background-color: #f5f8cf;
     border: none;
 }
+
+
+@media screen and (max-width: 700px) {
+    .hero-wrapper {
+        width: 70%;
+    }
+
+    .hero-wrapper > h1 {
+        font-size: 40px;
+    }
+
+    .hero-wrapper > h2 {
+        font-size: 15px;
+    }
+
+    .hero-wrapper > .hero-btn {
+        font-size: 12px;
+        font-weight: 600;
+    }
+}

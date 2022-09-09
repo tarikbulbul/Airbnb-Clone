@@ -9,13 +9,11 @@
     top: 0;
 }
 
-
 .header-icon {
     object-fit: contain;
     height: 100px;
     margin-left: 20px;
 }
-
 
 .header-center {
     display: flex;
@@ -49,4 +47,33 @@
 .avatar {
     color: white !important;
     background-color: rgba(128, 128, 128, 0.486);
+}
+
+
+@media screen and  (max-width: 550px) {
+    .header-icon {
+        margin-left: 10px;
+    }
+    
+    .header-center > input {
+        padding: 0;
+    }
+
+    .header-right > p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .header-icon {
+        margin-left: -10px;
+    }
+
+    .header-center > input {
+        width: 110px;
+    }
+
+    .header-right > p {
+        display: none;
+    }
 }
